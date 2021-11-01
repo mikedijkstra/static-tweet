@@ -36,6 +36,24 @@ export default function Index({ tweet }) {
         <A href="https://github.com/lfades/static-tweet/blob/master/pages/index.js">source</A>
         ).
       </P>
+      <P>Tweet links</P>
+      <Ul>
+        <Li>
+          <A href="/1450989750064599040" blank={false}>
+            Tweet 1
+          </A>
+        </Li>
+        <Li>
+          <A href="/1453888065282396161" blank={false}>
+            Tweet 2
+          </A>
+        </Li>
+        <Li>
+          <A href="/1452560640141414416" blank={false}>
+            Tweet 3
+          </A>
+        </Li>
+      </Ul>
       <P>
         That means no Twitter embed <Code className="inline">`{`<iframe>`}`</Code>, no JS, no layout
         and scrolling jumps, no slowness, great SEO, great lighthouse scores:
